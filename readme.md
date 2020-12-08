@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="zoek pagina van Airbnb">
+<img src="images/Airbnb first page small screen.JPG" width="375px" alt="zoek pagina van Airbnb">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="pagina met woning aanbod">
+<img src="images/Airbnb second page small screen.JPG" width="375px" alt="pagina met woning aanbod">
