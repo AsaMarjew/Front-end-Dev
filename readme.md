@@ -57,17 +57,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+Github desktop setup met Justus.
 
 
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/Remake Airbnb Elements page 1.png" width="375px" alt="Airbnb breakdown schets page 1">
 
+<img src="images/Remake Airbnb Elements page 2.png" width="375px" alt="Airbnb breakdown schets page 2">
 
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
 **Je startniveau:** rood
 
