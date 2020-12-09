@@ -6,9 +6,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Airbnb website: airbnb.nl
+2. Airbnb style: https://airbnb.design/
+3. Font style: https://airbnb.design/introducing-airbnb-cereal/
+4. Font download: https://www.cufonfonts.com/font/airbnb-cereal-app
 
 
 
