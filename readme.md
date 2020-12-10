@@ -64,7 +64,7 @@ Github desktop setup met Justus.
 
 ## Breakdownschets (week 1)
 
-<img src="images/Remake Airbnb Elements page 1.png" width="375px" alt="Airbnb breakdown schets page 1">
+<img src="images/Remake Airbnb Elementspage 1.png" width="375px" alt="Airbnb breakdown schets page 1">
 
 <img src="images/Remake Airbnb Elements page2.png" width="375px" alt="Airbnb breakdown schets page 2">
 
