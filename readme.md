@@ -1,7 +1,26 @@
 # Procesverslag
 **Auteur:** Asa Marjew
 
-Website 
+Website namaak van AirBnB
+
+**Beoordeling**
+
+Deel 1 - Voorwaarden
+
+- [ ] bevat 2 verschillende pagina’s
+- [x] is gerealiseerd met ‘nette’ vanilla HTML, CSS en Javascript
+- [x] bevat diverse content
+- [x] bevat minimaal één tot in detail uitgewerkte micro-interactie (met JS)
+- [x] is toegankelijk
+- [x] heeft een professionele uitstraling (in de huisstijl)
+- [ ] ziet er goed uit en werkt goed op telefoons (oude iPhone SE tot Galaxy Note)
+- [ ] is volledig responsive óf heeft een extra verzorgde surface plane
+- [x] Je website staat tijdig online (op GitHub) en is zonder technische problemen te zien. Verwijzingen naar benodigde bestanden (css, js, afbeeldingen, fonts, etc.) werken. Werkt op een desktop/laptop én op een telefoon.
+- [ ] Je code is verzorgd en leesbaar. Netjes ingesprongen, van commentaar voorzien, etc.
+- [x] Je hebt je vorderingen besproken en je proces vastgelegd en tijdig ontsloten op GitHub.
+- [ ] Je kunt je code in het beoordelingsgesprek uitleggen.
+- [x] Je vermeldt gebruikte bronnen in je procesverslag.
+- [ ] Je kunt je code uitleggen in het eindgesprek.
 
 
 ## Bronnenlijst
