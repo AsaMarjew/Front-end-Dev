@@ -1,5 +1,326 @@
 /* CSS Document */
-*, *::after, *::before {
+*, *::after, *::before 
+{
   box-sizing:border-box;  
 }
 
+html 
+{
+    background-color: #ffffff;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/********************************
+    HEADER
+*********************************/
+
+header 
+{
+    display: grid;
+    background: url("../images/c8dd7889-d579-49c7-9650-24ff71a82190.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 4em;
+}
+
+header a 
+{
+    display: block;
+    background-color: #F7F7F7;
+    font-size: 14px;
+    color: #222222;
+    text-align: center;
+    padding: 1.1em 3em;
+    position: relative;
+    text-decoration: underline;
+    top: -4.5em;
+}
+
+::placeholder
+{
+    color: silver;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 1em;
+}
+
+header input 
+{
+    display: block;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    position: relative;
+    margin: 5px 30px;
+    top: -3em;
+}
+
+header section 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 96px 24px 32px;
+    margin-bottom: 120px;
+}
+
+header h1 
+{
+    position: relative;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 5px;
+    top: -3.5em;
+}
+
+header button 
+{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #F7F7F7;
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin: 22px 0px 0px;
+    border: none;
+    border-radius: 8px;
+    top: -9em;
+}
+
+#menu {
+    position: fixed;
+    bottom: 0%;
+    background: #fff;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+}
+
+#menu p {
+    
+}
+
+/********************************
+    MAIN
+*********************************/
+
+main {
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 0em;
+    overflow: hidden;
+}
+
+main ul {
+    padding: 0;
+    display: flex;
+    padding-bottom: 1.5em;
+}
+
+main li {
+    margin-right: 12px;
+}
+
+main h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 7px;
+}
+
+img
+{
+    border-radius: 0.5em;
+    width: 272px;
+}
+
+#filterLocatie ul {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#filterLocatie li {
+    display: flex;
+    position: relative;
+}
+
+#filterLocatie img {
+    height: 72px;
+    width: 72px;
+}
+
+#filterLocatie h4 {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0.5em;
+    margin-bottom: 0.1em;
+    margin-left: 1em;
+    margin-right: 5em;
+}
+
+#filterLocatie p {
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.5em;
+    margin-top: 0.5em;
+    top: 40%;
+    left: 5.3em;
+}
+
+#filterSoort ul{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#online {
+    background-color: black;
+    color: white;
+    margin: 0em -2em;
+    padding: 1em 2em 3em 2em;
+
+}
+
+#online h2 {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+#online ul {
+    padding-left: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#online li {
+    position: relative;
+    display: inline-block;
+}
+
+#online img {
+    width: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+#online h3 {
+    background: #222222;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    bottom: 5%;
+}
+
+#online button 
+{
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    padding: 0.6em 1.5em;
+    margin-left: 24px;
+}
+
+#artikel ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+/********************************
+    FOOTER
+*********************************/
+
+footer {
+    padding: 2em;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #F7F7F7;
+}
+
+footer section 
+{
+    border-bottom: 0.1em solid #DDDDDD;
+}
+
+footer h5 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+footer li 
+{
+    padding-bottom: 1.2em;
+}
+
+footer section:last-of-type 
+{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 0em solid #DDDDDD;
+}
+
+footer section:last-of-type a 
+{
+    text-decoration: underline;
+    font-weight: 500;
+    padding-right: 2em;
+}
+
+footer section:last-of-type p 
+{
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+footer section:last-of-type ul 
+{
+    position: absolute;
+    padding-top: 0em;
+    margin-top: 0em;
+}
+
+footer section:last-of-type ul li 
+{
+    display: inline;
+}
