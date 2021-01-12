@@ -31,7 +31,7 @@ Ik vond het erg lastig om de flexbox toe te passen, hier heb ik dus een schets v
 
 **Screenshot(s):**
 
-<img src="images/schetsmenu.JPEG" width="375px" alt="menu schets">
+<img src="images/schetsmenu.jpeg" width="375px" alt="menu schets">
 
 <img src="images/menuvb.JPG" width="375px" alt="menu voorbeeld">
 
