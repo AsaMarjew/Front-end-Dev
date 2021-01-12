@@ -121,9 +121,6 @@ header button
     margin: 0;
 }
 
-#menu p {
-    
-}
 
 /********************************
     MAIN
@@ -323,4 +320,18 @@ footer section:last-of-type ul
 footer section:last-of-type ul li 
 {
     display: inline;
+}
+
+/********************************
+
+
+    MEDIA 744px
+
+
+*********************************/
+
+@media (min-width: 744px) {
+    #menu {
+        display: none;
+    }
 }
