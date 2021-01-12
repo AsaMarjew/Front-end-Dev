@@ -35,6 +35,45 @@ Ik vond het erg lastig om de flexbox toe te passen, hier heb ik dus een schets v
 
 <img src="images/menuvb.JPG" width="375px" alt="menu voorbeeld">
 
+```
+#filterLocatie ul {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#filterLocatie li {
+    display: flex;
+    position: relative;
+}
+
+#filterLocatie img {
+    height: 72px;
+    width: 72px;
+}
+
+#filterLocatie h4 {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0.5em;
+    margin-bottom: 0.1em;
+    margin-left: 1em;
+    margin-right: 5em;
+}
+
+#filterLocatie p {
+    position: absolute;
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.5em;
+    margin-top: 0.5em;
+    top: 40%;
+    left: 5.3em;
+}
+```
 
 
 ## Voortgang 1 en 2(week 3 en week 5)
