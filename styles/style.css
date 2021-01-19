@@ -9,6 +9,7 @@ html
     background-color: #ffffff;
     font-family: Roboto;
     box-sizing: border-box;
+
 }
 
 body 
@@ -18,9 +19,15 @@ body
     background-color: #F7F7F7;
 }
 
-ul {
+ul 
+{
     list-style: none;
     padding: 0;
+}
+
+ul::-webkit-scrollbar 
+{
+    display: none;
 }
 
 
@@ -31,14 +38,19 @@ ul {
 header 
 {
     display: grid;
+}
+
+#index 
+{
     background: url("../images/c8dd7889-d579-49c7-9650-24ff71a82190.webp");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 25px 25px 0px 0px;
+    background-position:bottom left, bottom right;
+    border-radius: 25px 25px 0 0;
     margin-top: 4em;
 }
 
-header a 
+#covid 
 {
     display: block;
     background-color: #F7F7F7;
@@ -103,13 +115,15 @@ header button
     display: inline-block;
     font-size: 14px;
     padding: 7px 15px;
-    margin: 22px 0px 0px;
+    margin: 22px 0 0;
     border: none;
     border-radius: 8px;
     top: -9em;
+    width: 20em;
 }
 
-#menu {
+#menu 
+{
     position: fixed;
     bottom: 0%;
     background: #fff;
@@ -121,29 +135,58 @@ header button
     margin: 0;
 }
 
+#aanbod header 
+{
+    background-color: #fff;
+    padding: 1.5em;
+    border-bottom: 0.1em solid rgba(113, 113, 113, 0.1);
+}
+
+#aanbod header button 
+{
+    position: absolute;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    right: 0%;
+    top: 0;
+    color: rgb(113, 113, 113); 
+    padding: 1.8em 0.5em; 
+    background-color: #fff;
+}
+
+#aanbod header a
+{
+    font-weight: 600;
+}
+
 
 /********************************
     MAIN
 *********************************/
 
-main {
+main 
+{
     background-color: white;
     padding: 1.5em;
     margin-top: 0em;
     overflow: hidden;
 }
 
-main ul {
+main ul 
+{
     padding: 0;
     display: flex;
     padding-bottom: 1.5em;
 }
 
-main li {
+main li 
+{
     margin-right: 12px;
 }
 
-main h3 {
+main h3 
+{
     font-size: 18px;
     font-weight: 500;
     margin: 0;
@@ -153,27 +196,31 @@ main h3 {
 img
 {
     border-radius: 0.5em;
-    width: 272px;
+    width: 20em;
 }
 
-#filterLocatie ul {
+#filterLocatie ul 
+{
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
-#filterLocatie li {
+#filterLocatie li 
+{
     display: flex;
     position: relative;
 }
 
-#filterLocatie img {
+#filterLocatie img 
+{
     height: 72px;
     width: 72px;
 }
 
-#filterLocatie h4 {
+#filterLocatie h4 
+{
     color: rgb(34, 34, 34);
     font-size: 16px;
     font-weight: 600;
@@ -183,7 +230,8 @@ img
     margin-right: 5em;
 }
 
-#filterLocatie p {
+#filterLocatie p 
+{
     position: absolute;
     color: rgb(34, 34, 34);
     font-size: 15px;
@@ -194,44 +242,50 @@ img
     left: 5.3em;
 }
 
-#filterSoort ul{
+#filterSoort ul
+{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
-#online {
+#online 
+{
     background-color: black;
     color: white;
-    margin: 0em -2em;
+    margin: 0em -5em;
     padding: 1em 2em 3em 2em;
-
 }
 
-#online h2 {
+#online h2 
+{
     margin: 0;
     margin-top: 1em;
     margin-bottom: 0.2em;
 }
 
-#online ul {
+#online ul 
+{
     padding-left: 24px;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
-#online li {
+#online li 
+{
     position: relative;
     display: inline-block;
 }
 
-#online img {
+#online img 
+{
     width: 180px;
     position: relative;
     overflow: hidden;
 }
 
-#online h3 {
+#online h3 
+{
     background: #222222;
     position: absolute;
     width: 100%;
@@ -255,17 +309,71 @@ img
     margin-left: 24px;
 }
 
-#artikel ul {
+#artikel ul 
+{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
+#aanbod main button 
+{
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    border: 0.1em solid rgb(113, 113, 113);
+    border-radius: 3em;
+    padding: 0.6em 1.5em;
+}
+
+#alert
+{
+    font-weight: 300;
+    font-size: 12px;
+    color: #717171;
+    border-bottom: 0.1em solid rgba(113, 113, 113, 0.2);
+    padding: 2em 0em;
+}
+
+#aanbod img
+{
+    width: 100%;
+}
+
+#aanbod section
+{
+    margin: 2em 0em;
+}
+
+#aanbod section p 
+{
+    margin: 0.5em 0em;
+}
+
+#paginaEinde
+{
+    text-align: center;
+}
+
+#paginaEinde p 
+{
+    border-top: 0.1em solid rgba(113, 113, 113, 0.2);
+    padding: 2em;
+}
+
+#paginaEinde a 
+{
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 12px;
+    color: #717171;
+}
 /********************************
     FOOTER
 *********************************/
-
-footer {
+footer 
+{
     padding: 2em;
     color: #222222;
     font-size: 15px;
@@ -290,34 +398,34 @@ footer li
     padding-bottom: 1.2em;
 }
 
-footer section:last-of-type 
+#disclaimer 
 {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 0em solid #DDDDDD;
 }
 
-footer section:last-of-type a 
+#disclaimer a 
 {
     text-decoration: underline;
     font-weight: 500;
     padding-right: 2em;
 }
 
-footer section:last-of-type p 
+#disclaimer p 
 {
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
 
-footer section:last-of-type ul 
+#disclaimer ul 
 {
     position: absolute;
     padding-top: 0em;
     margin-top: 0em;
 }
 
-footer section:last-of-type ul li 
+#disclaimer  ul li 
 {
     display: inline;
 }
@@ -327,11 +435,135 @@ footer section:last-of-type ul li
 
     MEDIA 744px
 
+    Vanaf hier veranderd de style wanneer de browser een breedte heeft van 744px.
+
 
 *********************************/
 
-@media (min-width: 744px) {
-    #menu {
+@media (min-width: 744px) 
+{
+    #menu 
+    {
         display: none;
+    }
+
+    #index 
+    {
+        border-radius: 0px;
+    }
+
+    #covid
+    {
+        color: white;
+        background-color: black;
+        padding: 1.7em 3em;
+    }
+
+    header h1 
+    {
+        top: auto;
+        font-size: 300%;
+    }
+
+    header button 
+    {
+        top: auto;
+    }
+
+    #online ul 
+    {
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 50%;
+    }
+
+    #online li:first-of-type
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: #222222;
+        border-radius: 0.5em;
+    }
+
+    #online li img
+    {
+        width: 100%;
+    }
+
+    .aanbod 
+    {
+        position: relative;
+        display: flex;
+    }
+
+    .aanbod p
+    {
+        position: absolute;
+        bottom: 65%;
+        left: 21em;
+    }
+
+    .aanbod p:first-of-type
+    {
+        bottom: 0%;
+    }
+
+    #aanbod img
+    {
+        width: 20em;
+    }
+
+    footer ul 
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #disclaimer 
+    {
+        text-align: center;
+    }
+
+    #disclaimer ul
+    {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+}
+
+/********************************
+
+
+    MEDIA 1020px
+
+    Vanaf hier veranderd de style wanneer de browser een breedte heeft van 1020px.
+
+
+*********************************/
+
+@media (min-width: 1020px) 
+{
+    main
+    {
+        padding: 5em;
+    }
+    img 
+    {
+        width: 13em;
+    }
+
+    #legenda 
+    {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    #legenda ul
+    {
+        display: flex;
+        flex-direction: column;
     }
 }

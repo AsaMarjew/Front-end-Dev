@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="nl" id="aanbod">
+
+
+    <!-- Hier begint de HTML Pagina van de index van de Airbnb site.
+         In de head tag worden meerdere meta data opgeslagen,
+         de titel wordt benoemd en de css-file wordt gelinked. -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Asa Marjew">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Remake_Airbnb</title>
+
+        <link href="styles/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <!-- De body tag geeft het zichtbare deel weer van een HTML pagina,
+         hier kunnen elementen worden toegevoegd die op de website te zien zijn.
+         De body heeft een structuur bestaande uit drie elementen, de header,
+         de main en de footer. 
+        
+         Header:
+         In de header wordt alleen de het bovenste stuk van een pagina gecodeerd. 
+         Deze header bevat:
+         - een melding van COVID-19
+         - een input vlak voor snel specifiek zoeken
+         - een menu onderdeel voor small screen
+         - een kop tekst
+         - een knop -->
+
+        <header>
+            <a>< Den Helder</a>
+            <button>Voeg datums toe</button>
+        </header>
+
+        <!-- Hier start de main, hier wordt de meeste content weergegeven en staat dus alle informatie in waar een gebruiker naar
+             zoekt wanneer hij of zei de website bezoekt.-->
+
+        <main>
+            <section>
+                <p>Meer dan 300 accommodaties</p>
+                <h2>Verblijven in Den Helder</h2>
+                <button>Filters</button>
+                <p id="alert">Voer de datums en het aantal gasten in om de totale prijs per nacht te zien.</p>
+                <p>Bekijk de COVID-19 reisbeperkingen voordat je reserveert. <a>Meer informatie</a></p>
+            </section>
+
+            <!-- Hierna volgt de aanbod van Airbnb, dit zijn steeds korte secties met een afbeelding en wat tekst. 
+                 Deze content is het meest responsive.-->
+
+
+            <section class="aanbod">                
+                <img src="https://a0.muscache.com/im/pictures/627e2374-c3de-4631-b21c-2c6c36858e60.jpg?im_w=1200" alt="Den Helder centrum">
+                <p>4,70 (128)</p>
+                <p>
+                    Geheel appartement - Den Helder<br>
+                    Nieuw appartement midden in het centrum
+                </p>
+            </section>
+            <section class="aanbod">
+                <img src="https://a0.muscache.com/im/pictures/38a72303-236f-46db-9498-940a98339624.jpg?im_w=1440" alt="Den Helder centrum">
+                <p>4,92 (146)</p>
+                <p>
+                    Voormalige boerderij - Sint Maarten<br>
+                    Stolpboerderij aan de Westfriese zeedijk
+                </p>
+            </section>
+            <section class="aanbod">
+                <img src="https://a0.muscache.com/im/pictures/4bf138bc-361d-4508-99bc-937342633b26.jpg?im_w=1440" alt="Den Helder modern">
+                <p>4,71 (215)</p>
+                <p>
+                    Geheel appartement - Den Helder<br>
+                    Luxe and modern house, 300mtrs from Sea!
+                </p>
+            </section>
+            <section class="aanbod">
+                <img src="https://a0.muscache.com/im/pictures/8b11d5d2-f573-42e0-9075-94f31b3aa278.jpg?im_w=1200" alt="Huisduinen tiny home">
+                <p>4,62 (87)</p>
+                <p>
+                    Tiny house - Huisduinen<br>
+                    Rooottz Tiny House by the Beach
+                </p>
+            </section>
+
+            <section id="paginaEinde">
+                <p>1-4 van Meer dan 300 accommodaties</p>
+                <a>Voer je datum in om de volledige prijs te zien. Schoonmaakkosten en servicekosten kunnen van toepassing zijn.</a>
+            </section>
+
+        </main>
+
+
+        <!-- Hier eindigd de body met een footer. In de footer staan vaak linkjes, zo kun je snel doorgelinkt worden
+         naar andere pagina's waar je meer informatie kan krijgen van bepaalde onderwerpen.
+         De footer is onderverdeelt per sectie. Per sectie wordt er een titel (h5) gegeven en vervolgens een
+         unordered list met meerdere list etmenten. -->
+
+        <footer>
+            <section id="legenda">
+                <section>
+                    <h5>Over</h5>
+                    <ul>
+                        <li>Hoe Airbnb werkt</li>
+                        <li>Redactie</li>
+                        <li>Airbnb Plus</li>
+                        <li>Airbnb Luxe</li>
+                        <li>HotelTonight</li>
+                        <li>Airbnb for Work</li>
+                        <li>Olympische Spelen</li>
+                        <li>Vacatures</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h5>Community</h5>
+                    <ul>
+                        <li>Diversiteit & Verondenheid</li>
+                        <li>Toegankelijkheid</li>
+                        <li>Airbnb Associates</li>
+                        <li>Accommodatieprogramma voor hulpverleners</li>
+                        <li>Vrienden uitnodigen</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h5>Host</h5>
+                    <ul>
+                        <li>Je woning verhuren</li>
+                        <li>Een online ervaring organiseren</li>
+                        <li>Een ervaring organiseren</li>
+                        <li>Verantwoord verhuren</li>
+                        <li>Open Homes</li>
+                        <li>Informatiecentrum</li>
+                        <li>Commnity Centrum</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h5>Ondersteuning</h5>
+                    <ul>
+                        <li>Onze respons op COVID-19</li>
+                        <li>Helpcentrum</li>
+                        <li>Annuleringsmogelijkheden</li>
+                        <li>Buurtondersteuning</li>
+                        <li>Vertrouwen & Veiligheid</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="disclaimer">
+                <a>Nederlans (NL)</a>
+                <a>EUR</a>
+                <p>2020 Airbnb, Inc. All rights reserved</p>
+                <ul>
+                    <li>Privacy · </li>
+                    <li>Voorwaarden · </li>
+                    <li>Sitemap · </li>
+                    <li>Bedrijfsgegevens</li>
+                </ul>
+            </section>
+        </footer>
+
+        <!-- Helemaal aan het einde van het HTML document worden de JavaScript
+         script megegeven aan het pagina.-->
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
